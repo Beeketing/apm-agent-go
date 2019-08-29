@@ -25,7 +25,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-redis/redis"
+	"github.com/Beeketing/redis"
 
 	"github.com/Beeketing/apm-agent-go"
 	"github.com/Beeketing/apm-agent-go/apmtest"

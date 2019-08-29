@@ -18,7 +18,7 @@
 package apmmysql
 
 import (
-	"github.com/go-sql-driver/mysql"
+	"github.com/Beeketing/mysql"
 
 	"github.com/Beeketing/apm-agent-go/module/apmsql"
 )

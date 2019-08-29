@@ -21,7 +21,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/go-redis/redis"
+	"github.com/Beeketing/redis"
 
 	"github.com/Beeketing/apm-agent-go"
 )

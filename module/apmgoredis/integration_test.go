@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-redis/redis"
+	"github.com/Beeketing/redis"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 

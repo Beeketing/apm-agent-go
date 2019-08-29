@@ -25,10 +25,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.elastic.co/apm/apmtest"
-	"go.elastic.co/apm/model"
-	"go.elastic.co/apm/module/apmsql"
-	_ "go.elastic.co/apm/module/apmsql/pq"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/model"
+	"github.com/Beeketing/apm-agent-go/module/apmsql"
+	_ "github.com/Beeketing/apm-agent-go/module/apmsql/pq"
 )
 
 func TestQueryContext(t *testing.T) {

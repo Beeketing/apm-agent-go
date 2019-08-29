@@ -21,7 +21,7 @@ import (
 	"context"
 	"database/sql/driver"
 
-	"go.elastic.co/apm"
+	"github.com/Beeketing/apm-agent-go"
 )
 
 func newStmt(in driver.Stmt, conn *conn, query string) driver.Stmt {

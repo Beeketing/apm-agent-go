@@ -39,9 +39,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go.elastic.co/apm/apmconfig"
-	"go.elastic.co/apm/internal/apmversion"
-	"go.elastic.co/apm/internal/configutil"
+	"github.com/Beeketing/apm-agent-go/apmconfig"
+	"github.com/Beeketing/apm-agent-go/internal/apmversion"
+	"github.com/Beeketing/apm-agent-go/internal/configutil"
 )
 
 const (

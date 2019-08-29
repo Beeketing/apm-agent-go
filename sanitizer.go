@@ -18,8 +18,8 @@
 package apm
 
 import (
-	"go.elastic.co/apm/internal/wildcard"
-	"go.elastic.co/apm/model"
+	"github.com/Beeketing/apm-agent-go/internal/wildcard"
+	"github.com/Beeketing/apm-agent-go/model"
 )
 
 const redacted = "[REDACTED]"

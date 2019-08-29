@@ -27,8 +27,8 @@ import (
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/log"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/module/apmhttp"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/module/apmhttp"
 )
 
 // otSpan wraps apm objects to implement the opentracing.Span interface.

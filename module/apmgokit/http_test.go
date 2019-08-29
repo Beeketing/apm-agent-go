@@ -28,11 +28,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/apmtest"
-	"go.elastic.co/apm/model"
-	"go.elastic.co/apm/module/apmhttp"
-	"go.elastic.co/apm/transport/transporttest"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/apmtest"
+	"github.com/Beeketing/apm-agent-go/model"
+	"github.com/Beeketing/apm-agent-go/module/apmhttp"
+	"github.com/Beeketing/apm-agent-go/transport/transporttest"
 )
 
 func Example_httpServer() {

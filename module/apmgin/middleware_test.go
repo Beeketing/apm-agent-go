@@ -30,10 +30,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"go.elastic.co/apm/apmtest"
-	"go.elastic.co/apm/model"
-	"go.elastic.co/apm/module/apmgin"
-	"go.elastic.co/apm/transport/transporttest"
+	"github.com/Beeketing/apm-agent-go/apmtest"
+	"github.com/Beeketing/apm-agent-go/model"
+	"github.com/Beeketing/apm-agent-go/module/apmgin"
+	"github.com/Beeketing/apm-agent-go/transport/transporttest"
 )
 
 var (

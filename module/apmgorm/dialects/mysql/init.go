@@ -22,5 +22,5 @@ package apmgormmysql
 import (
 	_ "github.com/jinzhu/gorm/dialects/mysql" // import the mysql dialect
 
-	_ "go.elastic.co/apm/module/apmsql/mysql" // register mysql with apmsql
+	_ "github.com/Beeketing/apm-agent-go/module/apmsql/mysql" // register mysql with apmsql
 )

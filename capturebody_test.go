@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/apmtest"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/apmtest"
 )
 
 func BenchmarkBodyCapturer(b *testing.B) {

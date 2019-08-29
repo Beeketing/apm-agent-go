@@ -23,15 +23,15 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	"go.elastic.co/apm/stacktrace"
+	"github.com/Beeketing/apm-agent-go/stacktrace"
 )
 
 func TestStacktrace(t *testing.T) {
 	expect := []string{
-		"go.elastic.co/apm/stacktrace_test.callPanickerDefer",
+		"github.com/Beeketing/apm-agent-go/stacktrace_test.callPanickerDefer",
 		"runtime.gopanic",
-		"go.elastic.co/apm/stacktrace_test.(*panicker).panic",
-		"go.elastic.co/apm/stacktrace_test.callPanicker",
+		"github.com/Beeketing/apm-agent-go/stacktrace_test.(*panicker).panic",
+		"github.com/Beeketing/apm-agent-go/stacktrace_test.callPanicker",
 	}
 
 	ch := make(chan []string)
@@ -76,10 +76,10 @@ func TestSplitFunctionName(t *testing.T) {
 	testSplitFunctionName(t, "main", "main")
 	testSplitFunctionName(t, "main", "Foo.Bar")
 	testSplitFunctionName(t, "main", "(*Foo).Bar")
-	testSplitFunctionName(t, "go.elastic.co/apm/foo", "bar")
+	testSplitFunctionName(t, "github.com/Beeketing/apm-agent-go/foo", "bar")
 	testSplitFunctionName(t,
-		"go.elastic.co/apm/module/apmgin",
-		"(*middleware).(go.elastic.co/apm/module/apmgin.handle)-fm",
+		"github.com/Beeketing/apm-agent-go/module/apmgin",
+		"(*middleware).(github.com/Beeketing/apm-agent-go/module/apmgin.handle)-fm",
 	)
 }
 

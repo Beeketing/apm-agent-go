@@ -22,7 +22,7 @@ import (
 
 	opentracing "github.com/opentracing/opentracing-go"
 
-	"go.elastic.co/apm"
+	"github.com/Beeketing/apm-agent-go"
 )
 
 type spanContext struct {

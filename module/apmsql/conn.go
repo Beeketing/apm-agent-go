@@ -22,7 +22,7 @@ import (
 	"database/sql/driver"
 	"errors"
 
-	"go.elastic.co/apm"
+	"github.com/Beeketing/apm-agent-go"
 )
 
 func newConn(in driver.Conn, d *tracingDriver, dsnInfo DSNInfo) driver.Conn {

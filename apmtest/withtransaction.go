@@ -20,8 +20,8 @@ package apmtest
 import (
 	"context"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/model"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/model"
 )
 
 // WithTransaction is equivalent to calling WithTransactionOptions with a zero TransactionOptions.

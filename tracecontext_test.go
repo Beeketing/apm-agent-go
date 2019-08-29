@@ -22,7 +22,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.elastic.co/apm"
+	"github.com/Beeketing/apm-agent-go"
 )
 
 func TestTraceID(t *testing.T) {

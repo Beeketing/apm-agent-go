@@ -22,7 +22,7 @@ import (
 	"html/template"
 	"os"
 
-	"go.elastic.co/apm"
+	"github.com/Beeketing/apm-agent-go"
 )
 
 func ExampleTransaction_EnsureParent() {

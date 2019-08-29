@@ -20,7 +20,7 @@ package apmsqlite3
 import (
 	sqlite3 "github.com/mattn/go-sqlite3"
 
-	"go.elastic.co/apm/module/apmsql"
+	"github.com/Beeketing/apm-agent-go/module/apmsql"
 )
 
 func init() {

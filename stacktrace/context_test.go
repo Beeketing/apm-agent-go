@@ -25,8 +25,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"go.elastic.co/apm/model"
-	"go.elastic.co/apm/stacktrace"
+	"github.com/Beeketing/apm-agent-go/model"
+	"github.com/Beeketing/apm-agent-go/stacktrace"
 )
 
 func TestFilesystemContextSetter(t *testing.T) {

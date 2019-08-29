@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.elastic.co/apm/internal/apmhttputil"
+	"github.com/Beeketing/apm-agent-go/internal/apmhttputil"
 )
 
 func TestRemoteAddr(t *testing.T) {

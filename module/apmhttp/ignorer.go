@@ -22,8 +22,8 @@ import (
 	"regexp"
 	"sync"
 
-	"go.elastic.co/apm/internal/configutil"
-	"go.elastic.co/apm/internal/wildcard"
+	"github.com/Beeketing/apm-agent-go/internal/configutil"
+	"github.com/Beeketing/apm-agent-go/internal/wildcard"
 )
 
 const (

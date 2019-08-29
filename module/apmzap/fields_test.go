@@ -30,9 +30,9 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/apmtest"
-	"go.elastic.co/apm/module/apmzap"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/apmtest"
+	"github.com/Beeketing/apm-agent-go/module/apmzap"
 )
 
 func TestTraceContext(t *testing.T) {

@@ -24,7 +24,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go.elastic.co/apm"
+	"github.com/Beeketing/apm-agent-go"
 )
 
 const (

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"go.elastic.co/apm/internal/apmhttputil"
-	"go.elastic.co/apm/model"
+	"github.com/Beeketing/apm-agent-go/internal/apmhttputil"
+	"github.com/Beeketing/apm-agent-go/model"
 )
 
 // Context provides methods for setting transaction and error context.

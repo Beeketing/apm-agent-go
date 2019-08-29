@@ -20,7 +20,7 @@ package apmhttp
 import (
 	"net/http"
 
-	"go.elastic.co/apm"
+	"github.com/Beeketing/apm-agent-go"
 )
 
 // RecoveryFunc is the type of a function for use in WithRecovery.

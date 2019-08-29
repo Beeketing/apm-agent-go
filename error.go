@@ -28,9 +28,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go.elastic.co/apm/internal/pkgerrorsutil"
-	"go.elastic.co/apm/model"
-	"go.elastic.co/apm/stacktrace"
+	"github.com/Beeketing/apm-agent-go/internal/pkgerrorsutil"
+	"github.com/Beeketing/apm-agent-go/model"
+	"github.com/Beeketing/apm-agent-go/stacktrace"
 )
 
 // Recovered creates an Error with t.NewError(err), where

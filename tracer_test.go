@@ -36,13 +36,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/apmconfig"
-	"go.elastic.co/apm/apmtest"
-	"go.elastic.co/apm/internal/apmhostutil"
-	"go.elastic.co/apm/model"
-	"go.elastic.co/apm/transport"
-	"go.elastic.co/apm/transport/transporttest"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/apmconfig"
+	"github.com/Beeketing/apm-agent-go/apmtest"
+	"github.com/Beeketing/apm-agent-go/internal/apmhostutil"
+	"github.com/Beeketing/apm-agent-go/model"
+	"github.com/Beeketing/apm-agent-go/transport"
+	"github.com/Beeketing/apm-agent-go/transport/transporttest"
 )
 
 func TestTracerStats(t *testing.T) {

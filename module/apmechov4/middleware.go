@@ -28,8 +28,8 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/module/apmhttp"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/module/apmhttp"
 )
 
 // Middleware returns a new Echo middleware handler for tracing

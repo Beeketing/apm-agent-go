@@ -20,7 +20,7 @@ package apmrestful_test
 import (
 	restful "github.com/emicklei/go-restful"
 
-	"go.elastic.co/apm/module/apmrestful"
+	"github.com/Beeketing/apm-agent-go/module/apmrestful"
 )
 
 func ExampleFilter() {

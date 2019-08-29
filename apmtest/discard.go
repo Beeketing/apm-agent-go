@@ -20,8 +20,8 @@ package apmtest
 import (
 	"log"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/transport/transporttest"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/transport/transporttest"
 )
 
 // DiscardTracer is an apm.Tracer that discards all events.

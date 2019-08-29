@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"strings"
 
-	"go.elastic.co/apm/internal/apmstrings"
-	"go.elastic.co/apm/model"
+	"github.com/Beeketing/apm-agent-go/internal/apmstrings"
+	"github.com/Beeketing/apm-agent-go/model"
 )
 
 // RequestURL returns a model.URL for req.

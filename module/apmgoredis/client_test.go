@@ -27,9 +27,9 @@ import (
 
 	"github.com/go-redis/redis"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/apmtest"
-	"go.elastic.co/apm/module/apmgoredis"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/apmtest"
+	"github.com/Beeketing/apm-agent-go/module/apmgoredis"
 )
 
 const (

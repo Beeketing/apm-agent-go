@@ -22,8 +22,8 @@ import (
 
 	restful "github.com/emicklei/go-restful"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/module/apmhttp"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/module/apmhttp"
 )
 
 // Filter returns a new restful.Filter for tracing requests

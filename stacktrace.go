@@ -20,8 +20,8 @@ package apm
 import (
 	"path/filepath"
 
-	"go.elastic.co/apm/model"
-	"go.elastic.co/apm/stacktrace"
+	"github.com/Beeketing/apm-agent-go/model"
+	"github.com/Beeketing/apm-agent-go/stacktrace"
 )
 
 func appendModelStacktraceFrames(out []model.StacktraceFrame, in []stacktrace.Frame) []model.StacktraceFrame {

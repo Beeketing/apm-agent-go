@@ -22,7 +22,7 @@ package apmsql_test
 import (
 	"strings"
 
-	"go.elastic.co/apm/module/apmsql"
+	"github.com/Beeketing/apm-agent-go/module/apmsql"
 )
 
 func Fuzz(data []byte) int {

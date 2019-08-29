@@ -32,9 +32,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/module/apmzap"
-	"go.elastic.co/apm/transport/transporttest"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/module/apmzap"
+	"github.com/Beeketing/apm-agent-go/transport/transporttest"
 )
 
 func TestCore(t *testing.T) {

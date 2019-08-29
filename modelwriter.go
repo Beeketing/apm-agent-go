@@ -18,9 +18,9 @@
 package apm
 
 import (
-	"go.elastic.co/apm/internal/ringbuffer"
-	"go.elastic.co/apm/model"
-	"go.elastic.co/apm/stacktrace"
+	"github.com/Beeketing/apm-agent-go/internal/ringbuffer"
+	"github.com/Beeketing/apm-agent-go/model"
+	"github.com/Beeketing/apm-agent-go/stacktrace"
 	"go.elastic.co/fastjson"
 )
 

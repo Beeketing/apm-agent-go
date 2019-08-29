@@ -20,7 +20,7 @@ package apmsqlite3
 import (
 	"strings"
 
-	"go.elastic.co/apm/module/apmsql"
+	"github.com/Beeketing/apm-agent-go/module/apmsql"
 )
 
 // ParseDSN parses the sqlite3 datasource name.

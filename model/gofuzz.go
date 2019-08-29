@@ -23,7 +23,7 @@ import (
 	"bytes"
 	"encoding/json"
 
-	"go.elastic.co/apm/internal/apmschema"
+	"github.com/Beeketing/apm-agent-go/internal/apmschema"
 	"go.elastic.co/fastjson"
 )
 

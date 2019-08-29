@@ -25,8 +25,8 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/module/apmsql"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/module/apmsql"
 )
 
 const (

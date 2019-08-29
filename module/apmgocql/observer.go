@@ -24,8 +24,8 @@ import (
 
 	"github.com/gocql/gocql"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/stacktrace"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/stacktrace"
 )
 
 func init() {

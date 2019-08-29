@@ -25,8 +25,8 @@ import (
 	"sync"
 	"unicode/utf8"
 
-	"go.elastic.co/apm/internal/apmstrings"
-	"go.elastic.co/apm/model"
+	"github.com/Beeketing/apm-agent-go/internal/apmstrings"
+	"github.com/Beeketing/apm-agent-go/model"
 )
 
 // CaptureBodyMode holds a value indicating how a tracer should capture

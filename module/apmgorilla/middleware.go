@@ -22,8 +22,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/module/apmhttp"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/module/apmhttp"
 )
 
 // Instrument instruments the mux.Router so that requests are traced.

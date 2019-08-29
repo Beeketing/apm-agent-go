@@ -22,7 +22,7 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"go.elastic.co/apm"
+	"github.com/Beeketing/apm-agent-go"
 )
 
 const (

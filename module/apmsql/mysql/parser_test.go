@@ -22,8 +22,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.elastic.co/apm/module/apmsql"
-	apmmysql "go.elastic.co/apm/module/apmsql/mysql"
+	"github.com/Beeketing/apm-agent-go/module/apmsql"
+	apmmysql "github.com/Beeketing/apm-agent-go/module/apmsql/mysql"
 )
 
 func TestParseDSN(t *testing.T) {

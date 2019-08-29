@@ -25,7 +25,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.elastic.co/apm/module/apmhttp"
+	"github.com/Beeketing/apm-agent-go/module/apmhttp"
 )
 
 func TestClientCloseIdleConnections(t *testing.T) {

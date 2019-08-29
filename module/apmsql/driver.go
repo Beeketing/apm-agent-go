@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"sync"
 
-	"go.elastic.co/apm/internal/sqlutil"
+	"github.com/Beeketing/apm-agent-go/internal/sqlutil"
 )
 
 // DriverPrefix should be used as a driver name prefix when

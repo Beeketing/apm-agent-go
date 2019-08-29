@@ -23,7 +23,7 @@ import (
 
 	"github.com/go-redis/redis"
 
-	"go.elastic.co/apm"
+	"github.com/Beeketing/apm-agent-go"
 )
 
 // Client is the interface returned by Wrap.

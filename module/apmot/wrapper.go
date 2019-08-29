@@ -23,8 +23,8 @@ import (
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/log"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/internal/apmcontext"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/internal/apmcontext"
 )
 
 func init() {

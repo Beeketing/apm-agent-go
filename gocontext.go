@@ -20,7 +20,7 @@ package apm
 import (
 	"context"
 
-	"go.elastic.co/apm/internal/apmcontext"
+	"github.com/Beeketing/apm-agent-go/internal/apmcontext"
 )
 
 // ContextWithSpan returns a copy of parent in which the given span

@@ -27,9 +27,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go.elastic.co/apm/internal/configutil"
-	"go.elastic.co/apm/internal/wildcard"
-	"go.elastic.co/apm/model"
+	"github.com/Beeketing/apm-agent-go/internal/configutil"
+	"github.com/Beeketing/apm-agent-go/internal/wildcard"
+	"github.com/Beeketing/apm-agent-go/model"
 )
 
 const (

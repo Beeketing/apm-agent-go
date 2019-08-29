@@ -30,8 +30,8 @@ import (
 	"sync"
 	"time"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/transport"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/transport"
 )
 
 // ExampleTracer shows how to use the Tracer API

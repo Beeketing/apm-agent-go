@@ -26,9 +26,9 @@ import (
 	"github.com/julienschmidt/httprouter"
 	"github.com/stretchr/testify/assert"
 
-	"go.elastic.co/apm/model"
-	"go.elastic.co/apm/module/apmhttprouter"
-	"go.elastic.co/apm/transport/transporttest"
+	"github.com/Beeketing/apm-agent-go/model"
+	"github.com/Beeketing/apm-agent-go/module/apmhttprouter"
+	"github.com/Beeketing/apm-agent-go/transport/transporttest"
 )
 
 func TestWrap(t *testing.T) {

@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	apmpq "go.elastic.co/apm/module/apmsql/pq"
+	apmpq "github.com/Beeketing/apm-agent-go/module/apmsql/pq"
 )
 
 func TestParseDSNURL(t *testing.T) {

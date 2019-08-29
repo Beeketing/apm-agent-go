@@ -31,9 +31,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/http2"
 
-	"go.elastic.co/apm/model"
-	"go.elastic.co/apm/module/apmhttp"
-	"go.elastic.co/apm/transport/transporttest"
+	"github.com/Beeketing/apm-agent-go/model"
+	"github.com/Beeketing/apm-agent-go/module/apmhttp"
+	"github.com/Beeketing/apm-agent-go/transport/transporttest"
 )
 
 func TestHandlerHTTP2(t *testing.T) {

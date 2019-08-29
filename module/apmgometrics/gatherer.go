@@ -22,7 +22,7 @@ import (
 
 	metrics "github.com/rcrowley/go-metrics"
 
-	"go.elastic.co/apm"
+	"github.com/Beeketing/apm-agent-go"
 )
 
 // Wrap wraps r, a go-metrics Registry, so that it can be used

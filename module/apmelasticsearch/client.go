@@ -28,8 +28,8 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/module/apmhttp"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/module/apmhttp"
 )
 
 // WrapRoundTripper returns an http.RoundTripper wrapping r, reporting each

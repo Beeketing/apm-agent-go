@@ -22,7 +22,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"go.elastic.co/apm/transport"
+	"github.com/Beeketing/apm-agent-go/transport"
 )
 
 // Discard is a transport.Transport which discards

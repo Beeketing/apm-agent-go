@@ -23,7 +23,7 @@ import (
 	"context"
 	"database/sql/driver"
 
-	"go.elastic.co/apm"
+	"github.com/Beeketing/apm-agent-go/apm"
 )
 
 func (d *tracingDriver) OpenConnector(name string) (driver.Connector, error) {

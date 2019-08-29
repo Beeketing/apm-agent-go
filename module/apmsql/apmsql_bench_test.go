@@ -25,10 +25,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/module/apmsql"
-	_ "go.elastic.co/apm/module/apmsql/sqlite3"
-	"go.elastic.co/apm/transport"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/module/apmsql"
+	_ "github.com/Beeketing/apm-agent-go/module/apmsql/sqlite3"
+	"github.com/Beeketing/apm-agent-go/transport"
 )
 
 func BenchmarkStmtQueryContext(b *testing.B) {

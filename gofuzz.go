@@ -34,9 +34,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/santhosh-tekuri/jsonschema"
 
-	"go.elastic.co/apm/internal/apmschema"
-	"go.elastic.co/apm/model"
-	"go.elastic.co/apm/stacktrace"
+	"github.com/Beeketing/apm-agent-go/internal/apmschema"
+	"github.com/Beeketing/apm-agent-go/model"
+	"github.com/Beeketing/apm-agent-go/stacktrace"
 	"go.elastic.co/fastjson"
 )
 

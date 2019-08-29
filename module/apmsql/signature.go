@@ -20,7 +20,7 @@ package apmsql
 import (
 	"strings"
 
-	"go.elastic.co/apm/internal/sqlscanner"
+	"github.com/Beeketing/apm-agent-go/internal/sqlscanner"
 )
 
 // QuerySignature returns the "signature" for a query:

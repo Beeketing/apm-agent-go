@@ -30,7 +30,7 @@ import (
 	"regexp"
 	"strings"
 
-	"go.elastic.co/apm/module/apmhttp"
+	"github.com/Beeketing/apm-agent-go/module/apmhttp"
 )
 
 var (

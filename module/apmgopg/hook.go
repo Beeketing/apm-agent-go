@@ -25,9 +25,9 @@ import (
 
 	"github.com/go-pg/pg"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/module/apmsql"
-	"go.elastic.co/apm/stacktrace"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/module/apmsql"
+	"github.com/Beeketing/apm-agent-go/stacktrace"
 )
 
 func init() {

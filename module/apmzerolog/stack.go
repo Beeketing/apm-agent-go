@@ -23,8 +23,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog/pkgerrors"
 
-	"go.elastic.co/apm/internal/pkgerrorsutil"
-	"go.elastic.co/apm/stacktrace"
+	"github.com/Beeketing/apm-agent-go/internal/pkgerrorsutil"
+	"github.com/Beeketing/apm-agent-go/stacktrace"
 )
 
 // MarshalErrorStack marshals the stack trace in err, if err

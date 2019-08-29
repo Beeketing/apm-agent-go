@@ -23,8 +23,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/stacktrace"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/stacktrace"
 )
 
 var (

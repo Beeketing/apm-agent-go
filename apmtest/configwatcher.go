@@ -20,7 +20,7 @@ package apmtest
 import (
 	"context"
 
-	"go.elastic.co/apm/apmconfig"
+	"github.com/Beeketing/apm-agent-go/apmconfig"
 )
 
 // WatchConfigFunc is a function type that implements apmconfig.Watcher.

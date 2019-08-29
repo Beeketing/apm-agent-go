@@ -26,8 +26,8 @@ import (
 	"net/http/httptest"
 	"time"
 
-	"go.elastic.co/apm/apmtest"
-	"go.elastic.co/apm/module/apmhttp"
+	"github.com/Beeketing/apm-agent-go/apmtest"
+	"github.com/Beeketing/apm-agent-go/module/apmhttp"
 )
 
 func ExampleWrapClient() {

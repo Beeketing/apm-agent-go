@@ -45,7 +45,7 @@ var (
 )
 
 func init() {
-	pkg, err := build.Default.Import("go.elastic.co/apm/internal/apmschema", "", build.FindOnly)
+	pkg, err := build.Default.Import("github.com/Beeketing/apm-agent-go/internal/apmschema", "", build.FindOnly)
 	if err != nil {
 		log.Fatal(err)
 	}

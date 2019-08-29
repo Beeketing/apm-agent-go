@@ -34,9 +34,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context/ctxhttp"
 
-	"go.elastic.co/apm/apmtest"
-	"go.elastic.co/apm/model"
-	"go.elastic.co/apm/module/apmelasticsearch"
+	"github.com/Beeketing/apm-agent-go/apmtest"
+	"github.com/Beeketing/apm-agent-go/model"
+	"github.com/Beeketing/apm-agent-go/module/apmelasticsearch"
 )
 
 func TestWrapRoundTripper(t *testing.T) {

@@ -26,9 +26,9 @@ import (
 	"github.com/opentracing/opentracing-go/harness"
 	"github.com/stretchr/testify/suite"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/apmtest"
-	"go.elastic.co/apm/module/apmhttp"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/apmtest"
+	"github.com/Beeketing/apm-agent-go/module/apmhttp"
 )
 
 func TestHarness(t *testing.T) {

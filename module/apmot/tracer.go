@@ -25,8 +25,8 @@ import (
 
 	opentracing "github.com/opentracing/opentracing-go"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/module/apmhttp"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/module/apmhttp"
 )
 
 // New returns a new opentracing.Tracer backed by the supplied

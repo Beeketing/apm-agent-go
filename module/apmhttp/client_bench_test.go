@@ -26,8 +26,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context/ctxhttp"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/module/apmhttp"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/module/apmhttp"
 )
 
 func BenchmarkClient(b *testing.B) {

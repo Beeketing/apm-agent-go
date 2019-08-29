@@ -22,7 +22,7 @@ import (
 
 	"github.com/opentracing/opentracing-go/log"
 
-	"go.elastic.co/apm"
+	"github.com/Beeketing/apm-agent-go"
 )
 
 func logKV(tracer *apm.Tracer, tx *apm.Transaction, span *apm.Span, time time.Time, keyValues []interface{}) {

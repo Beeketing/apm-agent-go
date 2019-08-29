@@ -22,8 +22,8 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	"go.elastic.co/apm"
-	"go.elastic.co/apm/module/apmhttp"
+	"github.com/Beeketing/apm-agent-go"
+	"github.com/Beeketing/apm-agent-go/module/apmhttp"
 )
 
 // Wrap wraps h such that it will report requests as transactions

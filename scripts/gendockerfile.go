@@ -62,9 +62,9 @@ var dockerfileTemplate = template.Must(template.New("Dockerfile").Funcs(dockerfi
 FROM golang:latest
 ENV GO111MODULE=on
 {{range .Dirs}}
-COPY {{join . "go.mod"}} {{join . "go.sum"}} {{join "/go/src/go.elastic.co/apm" .}}/{{end}}
+COPY {{join . "go.mod"}} {{join . "go.sum"}} {{join "/go/src/github.com/Beeketing/apm-agent-go" .}}/{{end}}
 
-{{range .Dirs}}RUN cd {{join "/go/src/go.elastic.co/apm" .}} && go mod download
+{{range .Dirs}}RUN cd {{join "/go/src/github.com/Beeketing/apm-agent-go" .}} && go mod download
 {{end}}
 WORKDIR /go/src/go.elastic.co/apm
 ADD . /go/src/go.elastic.co/apm

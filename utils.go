@@ -28,9 +28,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"go.elastic.co/apm/internal/apmhostutil"
-	"go.elastic.co/apm/internal/apmstrings"
-	"go.elastic.co/apm/model"
+	"github.com/Beeketing/apm-agent-go/internal/apmhostutil"
+	"github.com/Beeketing/apm-agent-go/internal/apmstrings"
+	"github.com/Beeketing/apm-agent-go/model"
 )
 
 var (

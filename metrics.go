@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"go.elastic.co/apm/internal/wildcard"
-	"go.elastic.co/apm/model"
+	"github.com/Beeketing/apm-agent-go/internal/wildcard"
+	"github.com/Beeketing/apm-agent-go/model"
 )
 
 // Metrics holds a set of metrics.

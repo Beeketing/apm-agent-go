@@ -24,7 +24,7 @@ import (
 
 	"github.com/gomodule/redigo/redis"
 
-	"go.elastic.co/apm"
+	"github.com/Beeketing/apm-agent-go"
 )
 
 // Conn is the interface returned by ContextConn.

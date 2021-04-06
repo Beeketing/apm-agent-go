@@ -1,10 +1,10 @@
-module go.elastic.co/apm/module/apmzerolog
+module github.com/Beeketing/apm-agent-go/module/apmzerolog
 
 require (
 	github.com/pkg/errors v0.8.1
 	github.com/rs/zerolog v1.12.0
 	github.com/stretchr/testify v1.3.0
-	go.elastic.co/apm v1.5.0
+	github.com/Beeketing/apm-agent-go v1.5.0
 )
 
-replace go.elastic.co/apm => ../..
+replace github.com/Beeketing/apm-agent-go => ../..

@@ -1,9 +1,9 @@
-module go.elastic.co/apm/module/apmredigo
+module github.com/Beeketing/apm-agent-go/module/apmredigo
 
 require (
 	github.com/gomodule/redigo v2.0.0+incompatible
 	github.com/stretchr/testify v1.3.0
-	go.elastic.co/apm v1.5.0
+	github.com/Beeketing/apm-agent-go v1.5.0
 )
 
-replace go.elastic.co/apm => ../..
+replace github.com/Beeketing/apm-agent-go => ../..

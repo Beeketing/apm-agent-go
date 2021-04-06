@@ -1,4 +1,4 @@
-module go.elastic.co/apm
+module github.com/Beeketing/apm-agent-go
 
 require (
 	github.com/armon/go-radix v1.0.0
